@@ -1,0 +1,88 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    scroll-behavior: smooth;
+    font-family: "Roboto", sans-serif;
+}
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+input,
+select,
+textarea {
+    background-color: transparent;
+    outline: none;
+}
+button {
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    max-width: 100%;
+    
+}
+body::-webkit-scrollbar {
+    width: 0px;
+}
+.ant-layout {
+    min-height: 100vh;
+}
+main {
+    overflow-y: scroll;
+    background-color: #f4f8fc !important;
+}
+
+.sm-logo {
+    display: none;
+    transition: 0.3s;
+}
+.lg-logo {
+    transition: 0.3s;
+}
+.ant-layout-sider {
+    transition: all 0.3s ease-in-out !important;
+}
+.ant-layout-sider-collapsed .sm-logo {
+    display: block;
+    transition: 0.3s;
+}
+.ant-layout-sider-collapsed .lg-logo {
+    display: none;
+    transition: 0.3s;
+}
+.ant-layout-content {
+    overflow: hidden;
+}
+.ant-menu-title-content {
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.dashboard-card {
+    background-color: rgba(3, 170, 0, 0.05);
+}
+
+/* Table */
+.ant-table-wrapper .ant-table {
+    font-family: "Roboto",sans-serif !important;
+    font-size: 16px;
+}
+.main-container{
+    background: linear-gradient(195deg, rgba(73, 163, 241, 0.6), rgba(26, 115, 232, 0.6)) 50% center / cover, url("https://demos.creative-tim.com/material-dashboard-pro-react/static/media/bg-profile.af1219a742e09fc7b612.jpeg") transparent;
+}
